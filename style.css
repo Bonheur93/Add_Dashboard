@@ -1,4 +1,7 @@
-/* header */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17pt;
+}
 
 .entete {
     display: grid;
@@ -7,11 +10,11 @@
     grid-row-gap: 0px;
     padding-left: 20px;
     padding-top: 20px;
-    background-color: rgb(139, 134, 134);
+    background-color: white;
 }
 
-li {
-    font-size: 25px;
+span {
+    font-size: 20px;
 }
 
 .sb>input {
@@ -22,12 +25,12 @@ li {
     background-color: rgb(228, 234, 240);
 }
 
-.reseach01 {
+.recherche1 {
     margin-top: 20px;
     text-align: left;
 }
 
-.reseach01>span {
+.recherche1>span {
     margin: 10px;
 }
 
@@ -36,19 +39,19 @@ li {
     padding: 10px;
 }
 
-.reseach02 {
+.recherche2 {
     margin: 20px;
     text-align: center;
 }
 
-.reseach02>span {
+.recherche2>span {
     margin: 10px;
 }
 
 .buttom {
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 25px;
     background-color: blue;
     padding: 10px;
